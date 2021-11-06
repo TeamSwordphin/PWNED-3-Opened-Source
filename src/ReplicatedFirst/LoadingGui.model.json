@@ -1,0 +1,159 @@
+{
+    "ClassName": "ScreenGui",
+    "Properties": {
+        "DisplayOrder": 100,
+        "Enabled": true,
+        "IgnoreGuiInset": true,
+        "ResetOnSpawn": false,
+        "ZIndexBehavior": "Sibling"
+    },
+    "Children": [
+        {
+            "Name": "Container",
+            "ClassName": "Frame",
+            "Properties": {
+                "Active": true,
+                "BackgroundTransparency": 1,
+                "Size": {
+                    "Type": "UDim2",
+                    "Value": [
+                        1,
+                        0,
+                        1,
+                        0
+                    ]
+                }
+            },
+            "Children": [
+                {
+                    "Name": "BackgroundImage",
+                    "ClassName": "ImageLabel",
+                    "Properties": {
+                        "BackgroundTransparency": 1,
+                        "Size": {
+                            "Type": "UDim2",
+                            "Value": [
+                                1,
+                                0,
+                                1,
+                                0
+                            ]
+                        },
+                        "SizeConstraint": "RelativeXY",
+                        "Image": "rbxassetid://3372350892",
+                        "ScaleType": "Crop"
+                    }
+                },
+                {
+                    "Name": "BarBelow",
+                    "ClassName": "ImageLabel",
+                    "Properties": {
+                        "BackgroundTransparency": 1,
+                        "Position": {
+                            "Type": "UDim2",
+                            "Value": [
+                                0,
+                                0,
+                                0.6,
+                                0
+                            ]
+                        },
+                        "Size": {
+                            "Type": "UDim2",
+                            "Value": [
+                                1,
+                                0,
+                                0.4,
+                                0
+                            ]
+                        },
+                        "Image": "rbxassetid://156579757",
+                        "ScaleType": "Stretch"
+                    },
+                    "Children": [
+                        {
+                            "Name": "TipTitle",
+                            "ClassName": "TextLabel",
+                            "Properties": {
+                                "BackgroundTransparency": 1,
+                                "Position": {
+                                    "Type": "UDim2",
+                                    "Value": [
+                                        0.05,
+                                        0,
+                                        1,
+                                        -70
+                                    ]
+                                },
+                                "Size": {
+                                    "Type": "UDim2",
+                                    "Value": [
+                                        0.9,
+                                        0,
+                                        0,
+                                        20
+                                    ]
+                                },
+                                "Font": "Gotham",
+                                "Text": "Tip:",
+                                "TextColor3": {
+                                    "Type": "Color3",
+                                    "Value": [
+                                        0.16470588235294,
+                                        0.86666666666667,
+                                        0.28235294117647
+                                    ]
+                                },
+                                "TextScaled": true,
+                                "TextTransparency": 0.4,
+                                "TextWrapped": true,
+                                "TextXAlignment": "Center",
+                                "TextYAlignment": "Center"
+                            }
+                        },
+                        {
+                            "Name": "Tip",
+                            "ClassName": "TextLabel",
+                            "Properties": {
+                                "BackgroundTransparency": 1,
+                                "Position": {
+                                    "Type": "UDim2",
+                                    "Value": [
+                                        0.05,
+                                        0,
+                                        1,
+                                        -40
+                                    ]
+                                },
+                                "Size": {
+                                    "Type": "UDim2",
+                                    "Value": [
+                                        0.9,
+                                        0,
+                                        0,
+                                        15
+                                    ]
+                                },
+                                "Font": "Gotham",
+                                "Text": "Welcome to PWNED 3!",
+                                "TextColor3": {
+                                    "Type": "Color3",
+                                    "Value": [
+                                        0.86666666666667,
+                                        0.86666666666667,
+                                        0.86666666666667
+                                    ]
+                                },
+                                "TextScaled": true,
+                                "TextTransparency": 0.4,
+                                "TextWrapped": true,
+                                "TextXAlignment": "Center",
+                                "TextYAlignment": "Center"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

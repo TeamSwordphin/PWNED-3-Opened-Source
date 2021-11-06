@@ -1,0 +1,24 @@
+{
+    "name": "PWNED 3",
+    "tree": {
+        "$className": "DataModel",
+        "ReplicatedFirst": {
+            "$className": "ReplicatedFirst",
+            "$path": "src/ReplicatedFirst",
+            "$ignoreUnknownInstances": true
+        },
+        "ServerScriptService": {
+            "$className": "ServerScriptService",
+            "$path": "src/ServerScriptService",
+            "$ignoreUnknownInstances": true
+        },
+        "StarterPlayer": {
+            "$className": "StarterPlayer",
+            "StarterPlayerScripts": {
+                "$className": "StarterPlayerScripts",
+                "$path": "src/StarterPlayerScripts",
+                "$ignoreUnknownInstances": true
+            }
+        }
+    }
+}

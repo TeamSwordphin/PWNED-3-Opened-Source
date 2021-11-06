@@ -1,0 +1,21 @@
+{
+    "ClassName": "Folder",
+    "Children": [
+        {
+            "Name": "ChangeValue",
+            "ClassName": "BindableEvent"
+        },
+        {
+            "Name": "ContinueStory",
+            "ClassName": "BindableEvent"
+        },
+        {
+            "Name": "ControllerClose",
+            "ClassName": "BindableEvent"
+        },
+        {
+            "Name": "Hint",
+            "ClassName": "BindableEvent"
+        }
+    ]
+}
