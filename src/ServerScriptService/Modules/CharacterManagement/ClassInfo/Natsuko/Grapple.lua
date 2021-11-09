@@ -1,0 +1,43 @@
+return {
+	AnimationId = "rbxassetid://-",
+	Available = true,
+	ImageIcon = "rbxgameasset://-",
+	IsActiveSkill = true,
+	PercentagePerLevel = {
+	  0.05,
+	  0.052,
+	  0.054,
+	  0.056,
+	  0.058,
+	  0.06,
+	  0.062,
+	  0.064,
+	  0.066,
+	  0.068,
+	  0.07,
+	  0.072,
+	  0.074,
+	  0.076,
+	  0.078,
+	  0.08,
+	  0.082,
+	  0.084,
+	  0.086,
+	  0.088,
+	  0.09,
+	  0.092,
+	  0.094,
+	  0.096,
+	},
+	SkillCooldown = 15,
+	SkillDescription = "Natsuko will uppercut, and any foe caught within its proximity will be smashed into the ground, dealing <font color = '#ff8000'>2000% damage</font> and reducing its DEF permanently.\
+  \
+  Nearby enemies caught within the impact smash will be <font color = '#ff8000'>damaged by 300%</font> <font color = '#fc6a6a'>+50% of Natsuko's MAX HP</font> <font color = '#ff8000'>+20% of the enemy's MAX HP</font>. \
+  \
+  <font color = '#6b7687'><i>Some bosses can't be grappled, and in some instances, enemies may become immune to its effects.</i></font>",
+	SkillGoldCost = 0,
+	SkillLevelReq = 0,
+	SkillName = "Grapple",
+	SkillPrefix = "% DEF Reduced",
+	SkillStamCost = 120,
+  }
